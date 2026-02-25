@@ -1,0 +1,27 @@
+{
+  "name": "wappwebhookbs",
+  "version": "0.1.0",
+  "description": "WhatsApp webhook boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafadicandia/wappWebHookBs.git"
+  },
+  "author": "Rafadicandia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rafadicandia/wappWebHookBs/issues"
+  },
+  "homepage": "https://github.com/Rafadicandia/wappWebHookBs#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
